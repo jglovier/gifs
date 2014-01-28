@@ -1,0 +1,47 @@
+#! /usr/bin/env ruby
+
+require 'builder'
+
+def dir_blacklist
+  ["css", "sass", "script"]
+end
+
+def useless?(f)
+  f.start_with?("_") ||
+    f.start_with?(".") ||
+    !File.directory?(f) ||
+    dir_blacklist.include?(f)
+end
+
+def get_gif_dirs
+  dirs = []
+  Dir.foreach(".") { |f| dirs << f unless useless?(f) }
+  dirs
+end
+
+list = Builder::XmlMarkup.new(
+  target: IO.new("_includes/site-index.html"),
+  indent: 4,
+  margin: 0
+)
+
+dirs = get_gif_dirs
+
+list.ul do |builder|
+  dirs.each do |dir|
+    builder.li do |dir_element|
+      dir_element.text!(dir)
+      dir_element.ul do |ul|
+        Dir.glob("#{dir}/*.gif") do |gif|
+          ul.li do |li|
+            li.a(
+              File.basename(gif),
+              "href"  => gif,
+              "title" => gif
+            )
+          end
+        end
+      end
+    end
+  end
+end

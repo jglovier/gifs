@@ -14,9 +14,7 @@ def useless?(f)
 end
 
 def get_gif_dirs
-  dirs = []
-  Dir.foreach(".") { |f| dirs << f unless useless?(f) }
-  dirs
+  Dir.foreach(".").map { |f| f unless useless?(f) }.compact
 end
 
 list = Builder::XmlMarkup.new(

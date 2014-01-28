@@ -20,8 +20,8 @@ def get_gif_dirs
 end
 
 list = Builder::XmlMarkup.new(
-  target: IO.new("_includes/site-index.html"),
-  indent: 4,
+  target: File.open("_includes/site-index.html", 'w'),
+  indent: 0,
   margin: 0
 )
 

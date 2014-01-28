@@ -6,4 +6,6 @@ layout: default
 
 [jglovier/gifs](https://github.com/jglovier/gifs)
 
-Oh Hai! You've found my Gif collection. This page is under construction atm, but here's a rough index dump for your reference:
+Oh Hai! You've found my Gif collection.
+
+{% include site-index.html %}

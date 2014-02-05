@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+{% include head.html %}
+
+<body>
+
+  <header class="page-header">
+    <img src="/aha/aha.gif" alt="" class="banner-img">
+    {{ content }}
+  </header>
+
+  <div class="gif-listing">
+  {% include site-index.html %}
+  </div>
+
+</body>
+
+{% include closing-tags.html %}

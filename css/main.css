@@ -1,0 +1,93 @@
+/* @group main styles -------------------- */
+
+@import url( "normalize.css" );
+
+/*
+Title:                Stylesheet name
+Author:                Author name
+Author email:          Author email
+Author URI:            Author uri
+Copyright:             Copyright info
+Created:               XX/XX/201X
+Version:               1.0
+*/
+
+/* Color Palatte
+
+color:                 #000
+
+color:                 #000
+
+color:                 #000
+
+*/
+
+/* Conventions: */
+
+/* Main Categories -------------------- */
+
+  /* sub categories */
+
+
+/* @group General Styles -------------------- */
+
+body{
+  font-family: "Myriad Pro", "Lucida Grande", Arial, sans-serif;
+  font-size:16px;
+  line-height:1.5;
+  background-color: #f8f8f8;
+}
+.wrap{
+  width:960px;
+  margin:0 auto;
+}
+.fixed{
+  position:fixed;
+}
+/* clearfix (now called group, via http://css-tricks.com/snippets/css/clear-fix/) */
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/* @end general styles */
+
+
+.page-header {
+  width: 300px; height: 100%;
+  background-color: #15171b;
+  position: fixed;
+  left: 0; top: 0; bottom: 0;
+  color: white;
+  text-align: center; }
+
+.page-header a {
+  color: #bdf5da;
+  font-weight: bold;
+}
+
+.gif-listing {
+  margin-left: 300px;
+  padding: 30px;
+  overflow: hidden; }
+
+.gif-listing > ul {
+  margin: 0; padding: 0;
+  list-style: none; }
+
+.gif-listing ul > li {
+  width: 200px;
+  float: left;
+}
+
+
+
+
+/* @end main styles */

@@ -2,63 +2,12 @@
 
 @import url( "normalize.css" );
 
-/*
-Title:                Stylesheet name
-Author:                Author name
-Author email:          Author email
-Author URI:            Author uri
-Copyright:             Copyright info
-Created:               XX/XX/201X
-Version:               1.0
-*/
-
-/* Color Palatte
-
-color:                 #000
-
-color:                 #000
-
-color:                 #000
-
-*/
-
-/* Conventions: */
-
-/* Main Categories -------------------- */
-
-  /* sub categories */
-
-
-/* @group General Styles -------------------- */
-
 body{
   font-family: "Myriad Pro", "Lucida Grande", Arial, sans-serif;
   font-size:16px;
   line-height:1.5;
   background-color: #f8f8f8;
 }
-.wrap{
-  width:960px;
-  margin:0 auto;
-}
-.fixed{
-  position:fixed;
-}
-/* clearfix (now called group, via http://css-tricks.com/snippets/css/clear-fix/) */
-.group:before,
-.group:after {
-    content:"";
-    display:table;
-}
-.group:after {
-    clear:both;
-}
-.group {
-    zoom:1; /* For IE 6/7 (trigger hasLayout) */
-}
-
-/* @end general styles */
-
 
 .page-header {
   width: 300px; height: 100%;
@@ -95,8 +44,6 @@ body{
 
 /*Style individual category cards*/
 .gif-listing > ul > li {
-  /*width: 255px;
-  float: left;*/
   background-color: rgba(189,245,218,.2);
   background-color: white;
   border-radius: 10px;
@@ -114,7 +61,7 @@ body{
   margin: 4px 0 0;
   padding: 8px 0 0;
   list-style: none;
-  border-top: 2px solid #dae3e3;
+  border-top: 1px solid #dae3e3;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -135,7 +82,5 @@ body{
 .gif-listing > ul > li > ul > li a:hover {
   color: #2a2f37;
   text-decoration: underline; }
-
-
 
 /* @end main styles */

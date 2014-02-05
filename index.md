@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: home
 ---
 
 # Dem gifs tho
 
-[jglovier/gifs](https://github.com/jglovier/gifs)
-
 Oh Hai! You've found my Gif collection.
+
+Fork me on GitHub at [jglovier/gifs](https://github.com/jglovier/gifs)

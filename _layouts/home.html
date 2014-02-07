@@ -8,12 +8,26 @@
   <header class="page-header">
     <img src="/aha/aha.gif" alt="" class="banner-img">
     {{ content }}
+
+    <img src="" id="preview" class="banner-img">
   </header>
 
   <div class="gif-listing">
   {% include site-index.html %}
   </div>
 
+  <script type="text/javascript">
+    var preview = document.getElementById("preview");
+
+    function hoverListener(evt) {
+      preview.src = evt.target.href;
+    };
+
+    var links = document.getElementsByClassName("gif");
+    for(var i=0; i<links.length; i++) {
+      links[i].addEventListener("mouseover", hoverListener);
+    }
+  </script>
 </body>
 
 {% include closing-tags.html %}

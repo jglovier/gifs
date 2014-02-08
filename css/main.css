@@ -17,7 +17,31 @@ body{
   color: white;
   text-align: center; }
 
-.page-header .banner-img { width: 100%; }
+.page-header .img-preview {
+  width: 100%;
+  height: 170px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.page-header .banner-img {
+  width: 100%;
+  position: 1; }
+
+.page-header .gif-preview {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  display: none;
+}
+
+.page-header .gif-preview[src*=".gif"] {
+  display: block;
+}
 
 .page-header a {
   color: #bdf5da;

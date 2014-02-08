@@ -6,10 +6,11 @@
 <body>
 
   <header class="page-header">
-    <img src="/aha/aha.gif" alt="" class="banner-img">
+    <div class="img-preview">
+      <img src="/aha/aha.gif" alt="" class="banner-img">
+      <img src="" id="preview" class="gif-preview">
+    </div>
     {{ content }}
-
-    <img src="" id="preview" class="banner-img">
   </header>
 
   <div class="gif-listing">
@@ -28,6 +29,7 @@
       links[i].addEventListener("mouseover", hoverListener);
     }
   </script>
+
 </body>
 
 {% include closing-tags.html %}

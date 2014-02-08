@@ -35,7 +35,8 @@ list.ul do |builder|
             li.a(
               File.basename(gif),
               "href"  => gif,
-              "title" => gif
+              "title" => gif,
+              "class" => "gif"
             )
           end
         end

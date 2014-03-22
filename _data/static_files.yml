@@ -338,6 +338,30 @@
 - path: cream/baby-throws-money.gif
   modified_time: 1393426444
   extname: .gif
+- path: crying/bugs-crying.gif
+  modified_time: 1395446715
+  extname: .gif
+- path: crying/crying.gif
+  modified_time: 1371907867
+  extname: .gif
+- path: crying/gushing-tears.gif
+  modified_time: 1395446784
+  extname: .gif
+- path: crying/laughing-crying.gif
+  modified_time: 1391605132
+  extname: .gif
+- path: crying/obama-crying.gif
+  modified_time: 1395446777
+  extname: .gif
+- path: crying/peter-parker-crying.gif
+  modified_time: 1395446757
+  extname: .gif
+- path: crying/sad-kitty.gif
+  modified_time: 1360724859
+  extname: .gif
+- path: crying/seth-rogen-crying.gif
+  modified_time: 1395446768
+  extname: .gif
 - path: dancing/advance-break-dans.gif
   modified_time: 1391571123
   extname: .gif
@@ -815,6 +839,9 @@
 - path: impressed/impressive.gif
   modified_time: 1378923641
   extname: .gif
+- path: internets/the-internet.gif
+  modified_time: 1395347014
+  extname: .gif
 - path: jurassic-park/cat-scare.gif
   modified_time: 1394470437
   extname: .gif
@@ -956,6 +983,9 @@
 - path: lolwat/silly-face 4.00.25 PM.gif
   modified_time: 1358343722
   extname: .gif
+- path: lolwat/thats-a-penis-gif.gif
+  modified_time: 1394470967
+  extname: .gif
 - path: lolwat/vevulza-winning.gif
   modified_time: 1353517514
   extname: .gif
@@ -1067,6 +1097,12 @@
 - path: omg/ooooo.gif
   modified_time: 1388066561
   extname: .gif
+- path: oprah/oprah-bees.gif
+  modified_time: 1395156004
+  extname: .gif
+- path: oprah/tom-cruise-zap-oprah.gif
+  modified_time: 1395155906
+  extname: .gif
 - path: ouch/breakdancing.gif
   modified_time: 1350076354
   extname: .gif
@@ -1105,18 +1141,6 @@
   extname: .gif
 - path: revenge/vevulza-winning.gif
   modified_time: 1353517514
-  extname: .gif
-- path: sad/crying.gif
-  modified_time: 1371907867
-  extname: .gif
-- path: sad/cute-sad.gif
-  modified_time: 1362584569
-  extname: .gif
-- path: sad/laughing-crying.gif
-  modified_time: 1391605132
-  extname: .gif
-- path: sad/sad-kitty.gif
-  modified_time: 1360724859
   extname: .gif
 - path: samuel-l-jackson/good-point.gif
   modified_time: 1378923718
@@ -1204,6 +1228,9 @@
   extname: .gif
 - path: silly-animals/nope-duck.gif
   modified_time: 1390243376
+  extname: .gif
+- path: silly-animals/poopin-cheetah.gif
+  modified_time: 1395231938
   extname: .gif
 - path: smooth/crazy-rock-climbing-move.gif
   modified_time: 1351195786
@@ -1295,6 +1322,9 @@
 - path: support/you-can-do-it-o.gif
   modified_time: 1374769523
   extname: .gif
+- path: support/yup-stepbrothers.gif
+  modified_time: 1376663867
+  extname: .gif
 - path: swagger/moonwalking-minihorse.gif
   modified_time: 1386779483
   extname: .gif
@@ -1306,6 +1336,18 @@
   extname: .gif
 - path: thank-you/thank-you-spice.gif
   modified_time: 1378923658
+  extname: .gif
+- path: three-stooges/curlyshuffle.gif
+  modified_time: 1395148126
+  extname: .gif
+- path: three-stooges/eye-poke.gif
+  modified_time: 1395148156
+  extname: .gif
+- path: three-stooges/face-wash.gif
+  modified_time: 1395148169
+  extname: .gif
+- path: three-stooges/slappy-o.gif
+  modified_time: 1395148144
   extname: .gif
 - path: thumbs-up/suits-thumbsup.gif
   modified_time: 1393962507
@@ -1331,9 +1373,6 @@
 - path: upset/cosby-facepalm.gif
   modified_time: 1360680685
   extname: .gif
-- path: upset/crying.gif
-  modified_time: 1362584561
-  extname: .gif
 - path: upset/DataBSOD.gif
   modified_time: 1357151579
   extname: .gif
@@ -1352,9 +1391,6 @@
 - path: upset/Kramer-whaaa.gif
   modified_time: 1355425942
   extname: .gif
-- path: upset/Kristen-Bell-Laughing-to-Crying.gif
-  modified_time: 1378923624
-  extname: .gif
 - path: upset/obama-kicks-door.gif
   modified_time: 1333116372
   extname: .gif
@@ -1370,17 +1406,11 @@
 - path: upset/scream.gif
   modified_time: 1355497503
   extname: .gif
-- path: upset/sobbing.gif
-  modified_time: 1371907867
-  extname: .gif
 - path: upset/tableflip.gif
   modified_time: 1377628872
   extname: .gif
 - path: upset/whyyyyy.gif
   modified_time: 1371907771
-  extname: .gif
-- path: upset/yup-stepbrothers.gif
-  modified_time: 1376663867
   extname: .gif
 - path: visuals/sparklers.gif
   modified_time: 1390240240

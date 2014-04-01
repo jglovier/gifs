@@ -179,6 +179,9 @@
 - path: bring-it/bring-it-psycho-cat.gif
   modified_time: 1391605132
   extname: .gif
+- path: bring-it/challenge-accepted.gif
+  modified_time: 1395768691
+  extname: .gif
 - path: careful/indiana-jones-sand-bag.gif
   modified_time: 1391605132
   extname: .gif
@@ -511,6 +514,9 @@
   extname: .gif
 - path: excited/ace-ventura-dance.gif
   modified_time: 1339861291
+  extname: .gif
+- path: excited/baby-excited.gif
+  modified_time: 1395768668
   extname: .gif
 - path: excited/bboy-bear.gif
   modified_time: 1339861276
@@ -1010,6 +1016,12 @@
 - path: mind-blown/mind-blown2.gif
   modified_time: 1378845970
   extname: .gif
+- path: monty-python/killer-rabbit.gif
+  modified_time: 1395678264
+  extname: .gif
+- path: monty-python/some-call-me-tim.gif
+  modified_time: 1395678417
+  extname: .gif
 - path: nacho-libre/nacho-libre.gif
   modified_time: 1384971707
   extname: .gif
@@ -1328,6 +1340,12 @@
 - path: swagger/moonwalking-minihorse.gif
   modified_time: 1386779483
   extname: .gif
+- path: swoon/cartoon-swoon.gif
+  modified_time: 1396288253
+  extname: .gif
+- path: swoon/swoon-bwscene.gif
+  modified_time: 1396288229
+  extname: .gif
 - path: teamwork/assist.gif
   modified_time: 1390020692
   extname: .gif
@@ -1351,6 +1369,9 @@
   extname: .gif
 - path: thumbs-up/suits-thumbsup.gif
   modified_time: 1393962507
+  extname: .gif
+- path: thumbs-up/terminator.gif
+  modified_time: 1395684234
   extname: .gif
 - path: thumbs-up/thumbs-up-levar-burton.gif
   modified_time: 1378923605
@@ -1495,6 +1516,9 @@
   extname: .gif
 - path: wtf/no_way_Neil_deGrasse_Tyson.gif
   modified_time: 1351518944
+  extname: .gif
+- path: wtf/puppy-wtf.gif
+  modified_time: 1395687057
   extname: .gif
 - path: wtf/ted-confused.gif
   modified_time: 1359600553

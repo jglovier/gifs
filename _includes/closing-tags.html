@@ -6,6 +6,12 @@ $(function(){
   $('ul').each(function(){
     $('a', this).magnificPopup({
       type: 'image',
+      image: {
+        titleSrc: function(item) {
+          var title = item.el.attr('title');
+          return '<a href="' + title + '" target="_blank">' + title + '</' + 'a>';
+        }
+      },
       gallery: {
         enabled: true
       }

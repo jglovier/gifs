@@ -7,8 +7,8 @@
     {% for image in site.data.static_files %}
     {% assign parts =  image.path | split:"/" %}
     {
-      "url": "http://gifs.joelglovier.com/{{ image.path }}",
-      "keywords": "{{ parts.first }} {{ parts.last | replace:image.extname, '' | replace: '-', ' ' | replace: '_', ' ' }}"
+      "url": "http://gifs.joelglovier.com/{{ image.path | uri_escape }}",
+      "keywords": "{{ parts.first | replace:'-', ' ' }} {{ parts.last | replace:image.extname, '' | replace: '-', ' ' | replace: '_', ' ' }}"
     }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ]

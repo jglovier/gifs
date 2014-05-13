@@ -6,7 +6,8 @@
   "images": [
     {% for image in site.data.static_files %}
     {% assign parts =  image.path | split:"/" %}
-    {% assign url = "http://gifs.joelglovier.com/" | append: image.path | uri_escape %}
+    {% assign path = image.path | uri_escape %}
+    {% assign url = "http://gifs.joelglovier.com/" | append: path %}
     {
       "url": {{ url | json }}, 
       "keywords": "{{ parts.first | replace:'-', ' ' }} {{ parts.last | replace:image.extname, '' | replace: '-', ' ' | replace: '_', ' ' }}"

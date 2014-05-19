@@ -5,29 +5,17 @@
 - path: accidents/accident3.gif
   modified_time: 1366054816
   extname: .gif
-- path: accidents/accident4.gif
-  modified_time: 1366054825
-  extname: .gif
 - path: accidents/accident5.gif
   modified_time: 1366054833
   extname: .gif
 - path: accidents/accident6.gif
   modified_time: 1366054841
   extname: .gif
-- path: accidents/accident7.gif
-  modified_time: 1366054858
-  extname: .gif
-- path: accidents/accident8.gif
-  modified_time: 1366054865
-  extname: .gif
 - path: accidents/bike-crash.gif
   modified_time: 1364560340
   extname: .gif
 - path: accidents/breakdancing.gif
   modified_time: 1350076354
-  extname: .gif
-- path: accidents/crash.gif
-  modified_time: 1373999068
   extname: .gif
 - path: accidents/fumble.gif
   modified_time: 1365427455
@@ -68,20 +56,17 @@
 - path: austin-powers/mole.gif
   modified_time: 1353329677
   extname: .gif
+- path: awkward/accident3.gif
+  modified_time: 1366054816
+  extname: .gif
 - path: awkward/white-guys.gif
   modified_time: 1377006852
-  extname: .gif
-- path: badass/BadAssCopCarFlipArrest.gif
-  modified_time: 1389831345
   extname: .gif
 - path: badass/bike_wheelie_bench_pressing.gif
   modified_time: 1358889260
   extname: .gif
-- path: badass/lane-passing-like-a-boss.gif
-  modified_time: 1363014775
-  extname: .gif
-- path: badass/mario-alt.gif
-  modified_time: 1339860861
+- path: badass/chuck-norris-split.gif
+  modified_time: 1400510770
   extname: .gif
 - path: badass/skate-rope.gif
   modified_time: 1389831347
@@ -185,14 +170,8 @@
 - path: careful/indiana-jones-sand-bag.gif
   modified_time: 1391605132
   extname: .gif
-- path: cats/bag-scares-cat.gif
-  modified_time: 1367327947
-  extname: .gif
 - path: cats/balloon-scares-cat.gif
   modified_time: 1367327937
-  extname: .gif
-- path: cats/bring-it-on-psycho-cat.gif
-  modified_time: 1359600785
   extname: .gif
 - path: cats/cat-fail.gif
   modified_time: 1336757046
@@ -205,9 +184,6 @@
   extname: .gif
 - path: cats/falling-cat-car-window.gif
   modified_time: 1391605132
-  extname: .gif
-- path: cats/morph-ball.gif
-  modified_time: 1368551956
   extname: .gif
 - path: cats/shhhhhh.gif
   modified_time: 1360938818
@@ -224,7 +200,7 @@
 - path: chris-farley/billy-madison.gif
   modified_time: 1391605132
   extname: .gif
-- path: chris-farley/giphy.gif
+- path: chris-farley/farley-weekend-update.gif
   modified_time: 1381598659
   extname: .gif
 - path: chris-farley/matt-foley-1.gif
@@ -235,6 +211,24 @@
   extname: .gif
 - path: chris-farley/tommy-boy.gif
   modified_time: 1391605132
+  extname: .gif
+- path: chuck-norris/chuck-norris-approved.gif
+  modified_time: 1400510755
+  extname: .gif
+- path: chuck-norris/chuck-norris-flappy-bird.gif
+  modified_time: 1400510835
+  extname: .gif
+- path: chuck-norris/chuck-norris-mario.gif
+  modified_time: 1339860861
+  extname: .gif
+- path: chuck-norris/chuck-norris-paperball.gif
+  modified_time: 1400510740
+  extname: .gif
+- path: chuck-norris/chuck-norris-punch.gif
+  modified_time: 1400510813
+  extname: .gif
+- path: chuck-norris/chuck-norris-split.gif
+  modified_time: 1400510763
   extname: .gif
 - path: chuck-norris/chuck-norris.gif
   modified_time: 1365442669
@@ -320,9 +314,6 @@
 - path: contempt/enough-internet.gif
   modified_time: 1378924055
   extname: .gif
-- path: contempt/eyeroll.gif
-  modified_time: 1378923601
-  extname: .gif
 - path: contempt/fresh-prince-omg.gif
   modified_time: 1374153908
   extname: .gif
@@ -346,9 +337,6 @@
   extname: .gif
 - path: crying/bugs-crying.gif
   modified_time: 1395446715
-  extname: .gif
-- path: crying/crying.gif
-  modified_time: 1371907867
   extname: .gif
 - path: crying/gushing-tears.gif
   modified_time: 1395446784
@@ -464,9 +452,6 @@
 - path: downton-abbey/oh-please.gif
   modified_time: 1393426443
   extname: .gif
-- path: downton-abbey/rubberneckin.gif
-  modified_time: 1393426443
-  extname: .gif
 - path: downton-abbey/violet-forbids.gif
   modified_time: 1393426443
   extname: .gif
@@ -484,9 +469,6 @@
   extname: .gif
 - path: downton-abbey/violet-woman-contrary.gif
   modified_time: 1393426443
-  extname: .gif
-- path: dust-shoulders/16-Obama-Shoulder-Brush.gif
-  modified_time: 1348687008
   extname: .gif
 - path: eddie-izzard/eddie-izzard-shaking-head.gif
   modified_time: 1399516067
@@ -1603,6 +1585,9 @@
   extname: .gif
 - path: three-stooges/slappy-o.gif
   modified_time: 1395148144
+  extname: .gif
+- path: thumbs-up/chuck-norris.gif
+  modified_time: 1365442669
   extname: .gif
 - path: thumbs-up/suits-thumbsup.gif
   modified_time: 1393962507

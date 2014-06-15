@@ -1,4 +1,4 @@
-# gif storage
+# E3 gifs
 
 Storage place for all my favorite gifs.
 

@@ -9,7 +9,7 @@
     {% assign path = image.path | uri_escape %}
     {% assign url = "http://gifs.joelglovier.com/" | append: path %}
     {
-      "url": {{ url | json }}, 
+      "url": "{{ url | json }}", 
       "keywords": "{{ parts.first | replace:'-', ' ' }} {{ parts.last | replace:image.extname, '' | replace: '-', ' ' | replace: '_', ' ' }}"
     }{% unless forloop.last %},{% endunless %}
     {% endfor %}

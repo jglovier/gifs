@@ -2,7 +2,7 @@
 
 Storage place for all my favorite gifs.
 
-![thumbs up](support/thumbs-up.gif)
+![thumbs up](thumbs-up/thumbs-up.gif)
 
 ## Contributing
 

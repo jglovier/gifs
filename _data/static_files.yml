@@ -338,6 +338,9 @@
 - path: dancing/dancin.gif
   modified_time: 1358541724
   extname: ".gif"
+- path: dancing/dumb-dumber-dance.gif
+  modified_time: 1363366872
+  extname: ".gif"
 - path: dancing/hammer-time.gif
   modified_time: 1339861299
   extname: ".gif"
@@ -821,6 +824,18 @@
 - path: hacking/jim-carrey.gif
   modified_time: 1416411175
   extname: ".gif"
+- path: hand-wave/bw-handwave.gif
+  modified_time: 1417723750
+  extname: ".gif"
+- path: hand-wave/kelly-kapour-w.gif
+  modified_time: 1417724156
+  extname: ".gif"
+- path: hand-wave/sheen-hand-wave.gif
+  modified_time: 1417723924
+  extname: ".gif"
+- path: hand-wave/whiz-handwave.gif
+  modified_time: 1417723782
+  extname: ".gif"
 - path: haters-gonna-hate/haters-gone-hate.gif
   modified_time: 1339860741
   extname: ".gif"
@@ -829,6 +844,9 @@
   extname: ".gif"
 - path: haters-gonna-hate/haters1.gif
   modified_time: 1367935695
+  extname: ".gif"
+- path: haters-gonna-hate/lizard-machine.gif
+  modified_time: 1417710535
   extname: ".gif"
 - path: haters-gonna-hate/moonwalking-minihorse.gif
   modified_time: 1386779483
@@ -1319,6 +1337,9 @@
 - path: popcorn/gazelle-popcorn.gif
   modified_time: 1393426445
   extname: ".gif"
+- path: popcorn/it-crowd-popcorn.gif
+  modified_time: 1417203708
+  extname: ".gif"
 - path: popcorn/popcorn-eating.gif
   modified_time: 1393426445
   extname: ".gif"
@@ -1625,11 +1646,29 @@
 - path: upset/whyyyyy.gif
   modified_time: 1371907771
   extname: ".gif"
+- path: waiting/coming-to-america-waiting.gif
+  modified_time: 1417542123
+  extname: ".gif"
 - path: watching/antelope-eating-popcorn.gif
   modified_time: 1393426445
   extname: ".gif"
 - path: web-dev/family-guy-css.gif
   modified_time: 1399516067
+  extname: ".gif"
+- path: whatever/alba-whatever.gif
+  modified_time: 1417723822
+  extname: ".gif"
+- path: whatever/bw-whatever.gif
+  modified_time: 1417723727
+  extname: ".gif"
+- path: whatever/eye-roll.gif
+  modified_time: 1417723906
+  extname: ".gif"
+- path: whatever/james-franco-hands-up.gif
+  modified_time: 1418335055
+  extname: ".gif"
+- path: whatever/miley-whatever.gif
+  modified_time: 1417723862
   extname: ".gif"
 - path: will-ferrell/air-juggling.gif
   modified_time: 1391605132
@@ -1669,6 +1708,9 @@
   extname: ".gif"
 - path: will-ferrell/throne-of-lies.gif
   modified_time: 1391605132
+  extname: ".gif"
+- path: work/back-to-work.gif
+  modified_time: 1417455363
   extname: ".gif"
 - path: wtf/cheech-wtf.gif
   modified_time: 1339860801

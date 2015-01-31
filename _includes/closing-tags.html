@@ -1,3 +1,25 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+
+<script>
+$(function(){
+  $('ul').each(function(){
+    $('a', this).magnificPopup({
+      type: 'image',
+      image: {
+        titleSrc: function(item) {
+          var title = item.el.attr('title');
+          return '<a href="' + title + '" target="_blank">' + title + '</' + 'a>';
+        }
+      },
+      gallery: {
+        enabled: true
+      }
+    });
+  });
+});
+</script>
+
 <!--GA script here-->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

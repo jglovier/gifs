@@ -87,7 +87,8 @@ body{
 
   .banner-img {
     width: 100%;
-    z-index: 1; }
+    z-index: 1;
+  }
 
   .gif-preview {
     width: 100%;
@@ -96,9 +97,11 @@ body{
     left: 0;
     top: 0;
     z-index: 2;
-    display: none; }
+    display: none;
 
-  &[src*=".gif"] { display: block; }
+    &[src*=".gif"] { display: block; }
+
+  }
 
   a {
     color: $green;

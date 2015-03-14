@@ -2,8 +2,6 @@
 layout: home
 ---
 
-# Dem gifs tho
+# My Gif Collection
 
-Oh Hai! You've found my Gif collection.
-
-Fork me on GitHub at [jglovier/gifs](https://github.com/jglovier/gifs)
+<p>Oh Hai! You've found my Gif collection. <br>Fork me on GitHub at <a href="https://github.com/jglovier/gifs">jglovier/gifs</a></p>

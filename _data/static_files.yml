@@ -110,6 +110,9 @@
 - path: boom/headshot.gif
   modified_time: 1386082924
   extname: ".gif"
+- path: boom/mic-drop-2.gif
+  modified_time: 1426340352
+  extname: ".gif"
 - path: boom/nuke.gif
   modified_time: 1364832614
   extname: ".gif"
@@ -329,6 +332,9 @@
 - path: dancing/bboy-bear.gif
   modified_time: 1339861276
   extname: ".gif"
+- path: dancing/blues-clues-dance.gif
+  modified_time: 1426340352
+  extname: ".gif"
 - path: dancing/creeper-dancer.gif
   modified_time: 1408068040
   extname: ".gif"
@@ -340,6 +346,12 @@
   extname: ".gif"
 - path: dancing/dumb-dumber-dance.gif
   modified_time: 1363366872
+  extname: ".gif"
+- path: dancing/fresh-prince-dance.gif
+  modified_time: 1426340352
+  extname: ".gif"
+- path: dancing/girl-get-down.gif
+  modified_time: 1426340352
   extname: ".gif"
 - path: dancing/hammer-time.gif
   modified_time: 1339861299
@@ -362,6 +374,9 @@
 - path: dancing/stormtroopin.gif
   modified_time: 1390337709
   extname: ".gif"
+- path: dancing/stuffed-animal-dance.gif
+  modified_time: 1426340352
+  extname: ".gif"
 - path: deal-with-it/advance-skate.gif
   modified_time: 1391571123
   extname: ".gif"
@@ -382,6 +397,9 @@
   extname: ".gif"
 - path: disgust/disgusted.gif
   modified_time: 1378834907
+  extname: ".gif"
+- path: disgust/dsn-eye-roll.gif
+  modified_time: 1426340352
   extname: ".gif"
 - path: disgust/fresh-prince-omg.gif
   modified_time: 1374153908
@@ -487,6 +505,9 @@
   extname: ".gif"
 - path: epic/techno-viking.gif
   modified_time: 1399516067
+  extname: ".gif"
+- path: epic/yak-shave.gif
+  modified_time: 1426340352
   extname: ".gif"
 - path: excited/1-50-Cent-Laugh-Off-JAG.gif
   modified_time: 1377632612
@@ -1583,6 +1604,9 @@
 - path: thumbs-up/chuck-norris.gif
   modified_time: 1365442669
   extname: ".gif"
+- path: thumbs-up/jakie-chan-thumbsup.gif
+  modified_time: 1426340352
+  extname: ".gif"
 - path: thumbs-up/suits-thumbsup.gif
   modified_time: 1393962507
   extname: ".gif"
@@ -1669,6 +1693,9 @@
   extname: ".gif"
 - path: whatever/miley-whatever.gif
   modified_time: 1417723862
+  extname: ".gif"
+- path: why-you/i-see-what-you-did-there.gif
+  modified_time: 1426340352
   extname: ".gif"
 - path: will-ferrell/air-juggling.gif
   modified_time: 1391605132

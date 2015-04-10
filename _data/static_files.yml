@@ -122,6 +122,9 @@
 - path: boom/Rick-Ross-Boom.gif
   modified_time: 1391605132
   extname: ".gif"
+- path: boss/breakfast-club-sunglasses.gif
+  modified_time: 1427808568
+  extname: ".gif"
 - path: boss/like-a-ross.gif
   modified_time: 1408068040
   extname: ".gif"
@@ -229,6 +232,9 @@
   extname: ".gif"
 - path: clap/dance.gif
   modified_time: 1363366872
+  extname: ".gif"
+- path: clap/picard-slow-clap.gif
+  modified_time: 1428701859
   extname: ".gif"
 - path: classics/bboy-bear.gif
   modified_time: 1339861276
@@ -355,6 +361,9 @@
   extname: ".gif"
 - path: dancing/hammer-time.gif
   modified_time: 1339861299
+  extname: ".gif"
+- path: dancing/jiggy.gif
+  modified_time: 1362757431
   extname: ".gif"
 - path: dancing/molly-breakfast-club.gif
   modified_time: 1416411174
@@ -569,6 +578,9 @@
 - path: excited/jean-claud-van-dam-dance.gif
   modified_time: 1339861328
   extname: ".gif"
+- path: excited/jiggy.gif
+  modified_time: 1362757431
+  extname: ".gif"
 - path: excited/kip_yes.gif
   modified_time: 1360332869
   extname: ".gif"
@@ -580,6 +592,9 @@
   extname: ".gif"
 - path: excited/shufflin-robot.gif
   modified_time: 1339861267
+  extname: ".gif"
+- path: excited/snl-sue-surprise-party.gif
+  modified_time: 1428505784
   extname: ".gif"
 - path: excited/stefan-spicy.gif
   modified_time: 1378924031
@@ -1618,6 +1633,9 @@
   extname: ".gif"
 - path: thumbs-up/thumbs-up.gif
   modified_time: 1353443149
+  extname: ".gif"
+- path: tongue/tongue-out.gif
+  modified_time: 1428030080
   extname: ".gif"
 - path: upset/alen-rickman.gif
   modified_time: 1357690839

@@ -386,6 +386,9 @@
 - path: dancing/stuffed-animal-dance.gif
   modified_time: 1426340352
   extname: ".gif"
+- path: dancing/world-order.gif
+  modified_time: 1358277790
+  extname: ".gif"
 - path: deal-with-it/advance-skate.gif
   modified_time: 1391571123
   extname: ".gif"
@@ -1502,39 +1505,6 @@
 - path: silly-animals/poopin-cheetah.gif
   modified_time: 1395231938
   extname: ".gif"
-- path: smooth/bill-murray-toast.gif
-  modified_time: 1399516067
-  extname: ".gif"
-- path: smooth/crazy-rock-climbing-move.gif
-  modified_time: 1351195786
-  extname: ".gif"
-- path: smooth/hat-on-table.gif
-  modified_time: 1391571123
-  extname: ".gif"
-- path: smooth/hookah-machine.gif
-  modified_time: 1391571123
-  extname: ".gif"
-- path: smooth/hotel-bed-flips.gif
-  modified_time: 1355345370
-  extname: ".gif"
-- path: smooth/is-it-joke.gif
-  modified_time: 1391571123
-  extname: ".gif"
-- path: smooth/mother-reflex.gif
-  modified_time: 1391571123
-  extname: ".gif"
-- path: smooth/pants.gif
-  modified_time: 1393426718
-  extname: ".gif"
-- path: smooth/smooth-swing-jump.gif
-  modified_time: 1389884619
-  extname: ".gif"
-- path: smooth/smooth.gif
-  modified_time: 1365530386
-  extname: ".gif"
-- path: smooth/world-order.gif
-  modified_time: 1358277790
-  extname: ".gif"
 - path: stay-strong/against-the-wind.gif
   modified_time: 1399575309
   extname: ".gif"
@@ -1564,6 +1534,9 @@
   extname: ".gif"
 - path: support/aha.gif
   modified_time: 1360677041
+  extname: ".gif"
+- path: support/bill-murray-toast.gif
+  modified_time: 1399516067
   extname: ".gif"
 - path: support/cabbage-patch.gif
   modified_time: 1374509175

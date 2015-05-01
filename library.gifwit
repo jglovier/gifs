@@ -19,7 +19,7 @@
     {% assign parts = parts_str | remove_first:delimiter | split:delimiter | sort %}
     {% assign path = image.path | uri_escape %}
     {
-      "url": "{{ "http://gifs.joelglovier.com/" | append: path | json }}",
+      "url": "{{ site.github.url | append: "/" | append: path | json }}",
       "keywords": "{% for part in parts %}{{ part }}{% unless forloop.last %} {% endunless %}{% endfor %}"
     }{% unless forloop.last %},{% endunless %}
   {% endfor %}

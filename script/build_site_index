@@ -42,7 +42,7 @@ list.ul do |builder|
     builder.li do |dir_element|
       dir_element.text!(dir)
       dir_element.ul do |ul|
-        Dir.glob("#{dir}/*.gif") do |gif|
+        Dir.glob("#{dir}/**/*.gif") do |gif|
           files << liquid_info_for_file(dir, gif)
           ul.li do |li|
             li.a(

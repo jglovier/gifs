@@ -281,6 +281,9 @@
 - path: disgust/judge-judy-computer-disgust.gif
   modified_time: 1393962506
   extname: ".gif"
+- path: disgust/stanley-eye-roll.gif
+  modified_time: 1436464805
+  extname: ".gif"
 - path: disgust/ted-confused.gif
   modified_time: 1359600553
   extname: ".gif"
@@ -457,6 +460,9 @@
   extname: ".gif"
 - path: fail/party-wipeout.gif
   modified_time: 1378924028
+  extname: ".gif"
+- path: fail/robot-face-smash.gif
+  modified_time: 1433519770
   extname: ".gif"
 - path: fail/truck-pool.gif
   modified_time: 1430463202
@@ -752,6 +758,30 @@
 - path: jurassic-park/life-finds-a-way.gif
   modified_time: 1394470381
   extname: ".gif"
+- path: laughing/50-cent-laughing-small.gif
+  modified_time: 1436553069
+  extname: ".gif"
+- path: laughing/absurd-laugh.gif
+  modified_time: 1436553111
+  extname: ".gif"
+- path: laughing/baldwin-laugh.gif
+  modified_time: 1436553210
+  extname: ".gif"
+- path: laughing/beyonce-laugh.gif
+  modified_time: 1436553178
+  extname: ".gif"
+- path: laughing/dumb-dumber-laugh-2.gif
+  modified_time: 1436553228
+  extname: ".gif"
+- path: laughing/dumb-dumber-laugh.gif
+  modified_time: 1436553156
+  extname: ".gif"
+- path: laughing/fallon-laugh.gif
+  modified_time: 1436553100
+  extname: ".gif"
+- path: laughing/muppets-laugh.gif
+  modified_time: 1436553131
+  extname: ".gif"
 - path: lol/harry-lol.gif
   modified_time: 1378929444
   extname: ".gif"
@@ -919,6 +949,9 @@
   extname: ".gif"
 - path: shut-up/shut-up.gif
   modified_time: 1376331533
+  extname: ".gif"
+- path: support/care-bear-stare.gif
+  modified_time: 1437579694
   extname: ".gif"
 - path: support/take-my-money.gif
   modified_time: 1348253335

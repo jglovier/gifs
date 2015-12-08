@@ -35,6 +35,9 @@
 - path: big-lebowski/no-huh-uh.gif
   modified_time: 1380832821
   extname: ".gif"
+- path: big-lebowski/oh-alright.gif
+  modified_time: 1449097579
+  extname: ".gif"
 - path: big-lebowski/polish-my-ball.gif
   modified_time: 1380832860
   extname: ".gif"
@@ -203,8 +206,14 @@
 - path: dancing/calvin-hobbes-dance.gif
   modified_time: 1383176014
   extname: ".gif"
+- path: dancing/carlton-drake.gif
+  modified_time: 1448309761
+  extname: ".gif"
 - path: dancing/carlton.gif
   modified_time: 1374590211
+  extname: ".gif"
+- path: dancing/dance-fart.gif
+  modified_time: 1448309779
   extname: ".gif"
 - path: dancing/dancin.gif
   modified_time: 1358541724
@@ -235,6 +244,12 @@
   extname: ".gif"
 - path: dancing/napoleon-dance.gif
   modified_time: 1339861284
+  extname: ".gif"
+- path: dancing/peanuts-kids-dancing.gif
+  modified_time: 1449000491
+  extname: ".gif"
+- path: dancing/peanuts-running-man.gif
+  modified_time: 1449000474
   extname: ".gif"
 - path: dancing/shufflin-robot.gif
   modified_time: 1339861267
@@ -362,6 +377,9 @@
 - path: excited/giggle.gif
   modified_time: 1376914779
   extname: ".gif"
+- path: excited/hip-hop-hooray.gif
+  modified_time: 1448771330
+  extname: ".gif"
 - path: excited/ice-cube-good-day.gif
   modified_time: 1361395651
   extname: ".gif"
@@ -388,6 +406,9 @@
   extname: ".gif"
 - path: excited/never-ending-story.gif
   modified_time: 1416411175
+  extname: ".gif"
+- path: excited/new-world-order.gif
+  modified_time: 1447866494
   extname: ".gif"
 - path: excited/noice.gif
   modified_time: 1416411175
@@ -587,6 +608,9 @@
 - path: help/he-man-help.gif
   modified_time: 1399516067
   extname: ".gif"
+- path: help/help-me-obiwan.gif
+  modified_time: 1449522181
+  extname: ".gif"
 - path: help/help.gif
   modified_time: 1430463202
   extname: ".gif"
@@ -727,6 +751,9 @@
   extname: ".gif"
 - path: hubbers/joel-tim-toast.gif
   modified_time: 1375997654
+  extname: ".gif"
+- path: hubbers/mdo-hiding.gif
+  modified_time: 1449589698
   extname: ".gif"
 - path: hubbers/rtomayko-dance.gif
   modified_time: 1377629060
@@ -935,6 +962,9 @@
 - path: no/really-hahaha-no.gif
   modified_time: 1347322292
   extname: ".gif"
+- path: no/spader-reddington-not-a-good-idea.gif
+  modified_time: 1447614131
+  extname: ".gif"
 - path: no/tracey-jordan-nope.gif
   modified_time: 1391571123
   extname: ".gif"
@@ -1010,6 +1040,9 @@
 - path: ship/canal-ships.gif
   modified_time: 1416411175
   extname: ".gif"
+- path: shrug/drake-shrug.gif
+  modified_time: 1448310342
+  extname: ".gif"
 - path: shut-up/shut-up.gif
   modified_time: 1376331533
   extname: ".gif"
@@ -1052,8 +1085,23 @@
 - path: thumbs-up/terminator.gif
   modified_time: 1396385748
   extname: ".gif"
+- path: thumbs-up/thumbs-up-80s-kid.gif
+  modified_time: 1447777563
+  extname: ".gif"
+- path: thumbs-up/thumbs-up-community.gif
+  modified_time: 1447777628
+  extname: ".gif"
+- path: thumbs-up/thumbs-up-daft-punk.gif
+  modified_time: 1447777616
+  extname: ".gif"
 - path: thumbs-up/thumbs-up-levar-burton.gif
   modified_time: 1378923605
+  extname: ".gif"
+- path: thumbs-up/thumbs-up-minion.gif
+  modified_time: 1447777606
+  extname: ".gif"
+- path: thumbs-up/thumbs-up-redhead.gif
+  modified_time: 1447777590
   extname: ".gif"
 - path: thumbs-up/thumbs-up.gif
   modified_time: 1353443149

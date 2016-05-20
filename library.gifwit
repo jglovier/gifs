@@ -20,7 +20,7 @@
     {% assign path = image.path | uri_escape %}
     {
       "url": "{{ site.github.url | append: "/" | append: path | json }}",
-      "keywords": "{% for part in parts %}{{ part }}{% unless forloop.last %} {% endunless %}{% endfor %}"
+      "keywords": "{{ parts | join:delimiter | json }}"
     }{% unless forloop.last %},{% endunless %}
   {% endfor %}
   ]

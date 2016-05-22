@@ -1,6 +1,7 @@
 <head>
   <meta charset="UTF-8">
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.github.url }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title }}{% else %}{% if site.github.project_title %}{{ site.github.project_title }}{% else %}{{ site.github.url }}{% endif %}{% endif %}</title>
+  <meta name="description" content="{{ site.github.project_tagline }}">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,800' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/main.css">
   <meta name="viewport" content="initial-scale=1">

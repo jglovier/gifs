@@ -19,8 +19,7 @@ def get_gif_dirs
   Dir.foreach(".").map { |f| f unless useless?(f) }.compact
 end
 
-def liquid_info_for_file(dir, filename)
-  path = File.join(filename)
+def liquid_info_for_file(path)
   {
     "path"          => path,
     "modified_time" => File.mtime(path).to_i,
@@ -43,7 +42,7 @@ list.ul do |builder|
       dir_element.text!(dir)
       dir_element.ul do |ul|
         Dir.glob("#{dir}/**/*.{gif,jpg,jpeg,png}") do |gif|
-          files << liquid_info_for_file(dir, gif)
+          files << liquid_info_for_file(gif)
           ul.li do |li|
             li.a(
               File.basename(gif),

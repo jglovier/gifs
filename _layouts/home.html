@@ -7,27 +7,148 @@
 
   <header class="page-header">
     <div class="img-preview">
-      <img src="excited/aha.gif" alt="" class="banner-img">
+      <img src="excited/aha.gif" id="preview-background" alt="" class="banner-img">
       <img src="" id="preview" class="gif-preview">
     </div>
+    <div class="filter">
+      <input type="text" id="filter-input" placeholder="Type to filter..." />
+    </div>
+
     {{ content }}
   </header>
 
-  <div class="gif-listing">
-  {% include site-index.html %}
+  <div id="gif-listing" class="gif-listing">
   </div>
 
   <script type="text/javascript">
-    var preview = document.getElementById("preview");
+    var preview = document.getElementById('preview'),
+      previewBackground = document.getElementById('preview-background'),
+      filterInput = document.getElementById('filter-input'),
+      gifList = document.getElementById('gif-listing'),
+      data = {% include site-index.json %};
+
+    function togglePreviewBackground() {
+      if (preview.src) {
+        previewBackground.style.display = 'none';
+      } else {
+        previewBackground.style.display = '';
+      }
+    }
 
     function hoverListener(evt) {
       preview.src = evt.target.href;
+
+      togglePreviewBackground();
     };
 
-    var links = document.getElementsByClassName("gif");
-    for(var i=0; i<links.length; i++) {
-      links[i].addEventListener("mouseover", hoverListener);
+    function clickListener(evt) {
+      // Block clicking on mobile
+      if (!(evt.metaKey || evt.ctlKey || evt.altKey)) {
+        evt.preventDefault();
+
+        preview.src = evt.target.href;
+
+        togglePreviewBackground();
+      }
     }
+
+    function createCategoryListNode(ulNode, name) {
+      var liNode = document.createElement('li'),
+        categoryULNode = document.createElement('ul');
+
+      liNode.setAttribute('class', 'category-group');
+      liNode.setAttribute('data-title', name);
+      liNode.innerHTML = name;
+      liNode.appendChild(categoryULNode);
+
+      ulNode.appendChild(liNode);
+
+      return categoryULNode;
+    }
+
+    var lastCategory = data[0].category,
+      ulNode = document.createElement('ul'),
+      currentCategoryListNode = createCategoryListNode(ulNode, lastCategory);
+
+    for (var i = 0; i < data.length; i++) {
+      // Create the dom elements for each item
+      var item = data[i],
+        liNode = document.createElement('li'),
+        aNode = document.createElement('a');
+
+      if (item.category !== lastCategory) {
+        lastCategory = item.category;
+        currentCategoryListNode = createCategoryListNode(ulNode, item.category);
+      }
+
+      aNode.setAttribute('href', '{{ site.github.url | append: "/" }}' + item.path);
+      aNode.setAttribute('title', item.title);
+      aNode.setAttribute('class', 'gif');
+      aNode.innerHTML = item.title;
+
+      liNode.appendChild(aNode);
+      currentCategoryListNode.appendChild(liNode);
+    }
+
+    gifList.appendChild(ulNode);
+
+    currentCategoryListNode = undefined;
+    ulNode = undefined;
+
+    var links = document.getElementsByClassName("gif");
+    for (var i = 0; i < links.length; i++) {
+      links[i].addEventListener("mouseover", hoverListener);
+      links[i].addEventListener("click", clickListener);
+    }
+
+    function filterResultsFromInputListener (evt) {
+      var filterStrings = evt.target.value.toLowerCase().replace(/[^a-z0-9 ]+/g, '').split(' '),
+        visibleCategories = [];
+
+      for (var i = 0; i < links.length; i++) {
+        var element = links[i].parentNode,
+          elementData = data[i],
+          visible = true;
+
+        if (filterStrings.length > 0) {
+          // See if this element matches our filter
+          var elementTags = elementData.tags.join(' ');
+          for (var j = 0; j < filterStrings.length; j++) {
+            visible = elementTags.indexOf(filterStrings[j]) !== -1;
+          }
+        }
+
+        if (visible) {
+          if (visibleCategories.length === 0) {
+            // No need to search, add the category
+            visibleCategories.push(elementData.category);
+          } else if (visibleCategories[0] !== elementData.category) {
+            // We push the category onto the front of the array. And the data is always sorted by category
+            visibleCategories.unshift(elementData.category);
+          }
+
+          element.classList.remove('hidden');
+        } else {
+          element.classList.add('hidden');
+        }
+      }
+
+      // Hide all the categories that aren't in the list
+      var categoryNodes = document.getElementsByClassName("category-group");
+      for (var i = 0; i < categoryNodes.length; i++) {
+        var categoryNode = categoryNodes[i],
+          categoryTitle = categoryNode.getAttribute('data-title');
+        if (visibleCategories.indexOf(categoryTitle) !== -1) {
+          // Show the category
+          categoryNode.classList.remove('hidden');
+        } else {
+          categoryNode.classList.add('hidden');
+        }
+      }
+    }
+
+    filterInput.addEventListener('keyup', filterResultsFromInputListener);
+    filterInput.addEventListener('change', filterResultsFromInputListener);
   </script>
 
 </body>

@@ -6,21 +6,10 @@
   "images": [
   {% assign delimiter = ' ' %}
   {% for image in site.data.static_files %}
-    {% assign parts_str = '' %}{% assign parts = image.path | split:'/' %}
-    {% for part in parts %}
-      {% assign keywords = part | replace:image.extname, '' | downcase | replace:'-', delimiter | replace:'_', delimiter | split:delimiter %}
-      {% for k in keywords %}
-        {% assign parts_arr = parts_str | split:delimiter %}
-        {% unless parts_arr contains k %}
-          {% assign parts_str = parts_str | append:delimiter | append:k %}
-        {% endunless %}
-      {% endfor %}
-    {% endfor %}
-    {% assign parts = parts_str | remove_first:delimiter | split:delimiter | sort %}
     {% assign path = image.path | uri_escape %}
     {
       "url": "{{ site.github.url | append: "/" | append: path | json }}",
-      "keywords": "{{ parts | join:delimiter | json }}"
+      "keywords": "{{ image.tags | join: ' ' | json }}"
     }{% unless forloop.last %},{% endunless %}
   {% endfor %}
   ]

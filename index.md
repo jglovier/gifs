@@ -6,5 +6,3 @@ layout: home
 # My Gif Collection
 
 <p>Oh Hai! You've found my Gif collection. <br>Fork me on GitHub at <a class="fork-me-at" href="{{ site.github.repository_url }}" title="Revision {{ site.github.build_revision }}">{{ site.github.repository_nwo }}</a> <br> (Hover to preview an image)</p>
-
-<p>Import into <a href="http://gifwit.com/">Gifwit</a> with my <a href="library.gifwit">library</a>.</p>

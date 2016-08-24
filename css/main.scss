@@ -33,6 +33,11 @@ $purple:              #d070d1;
   font-weight: 800;
 }
 
+::-webkit-input-placeholder { color: #97afc8; }
+:-moz-placeholder { color: #97afc8; } /* Firefox 18- */
+::-moz-placeholder { color: #97afc8; } /* Firefox 19+ */
+:-ms-input-placeholder { color: #97afc8; }
+
 // @group main styles --------------------
 
 html { background-color: $navy_bg; }
@@ -86,15 +91,16 @@ body{
   }
 
   .filter {
-    width: 100%;
-    height: 30px;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
+    padding: 6px 10px;
 
     input {
       width: 100%;
       height: 30px;
+      border: none;
+      border-radius: 3px;
+      padding: 3px 6px;
+      background: $navy_bg_light;
+      color: $blue_text_lht;
     }
   }
 

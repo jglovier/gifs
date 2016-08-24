@@ -121,9 +121,10 @@ body{
 
   }
 
-  a {
+  a.fork-me-at {
     color: $green;
-    font-weight: bold; }
+    font-weight: bold;
+  }
 }
 
 .gif-listing {

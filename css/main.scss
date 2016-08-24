@@ -69,7 +69,7 @@ body{
   .header-content { padding: 0 10px; }
 
   h1 {
-    @include sans_light;
+    @include sans_regular;
     color: white;
     letter-spacing: -.05em;
     font-size: 2rem;
@@ -119,10 +119,7 @@ body{
 
   a { color: $blue_text_lht; }
 
-  a.fork-me-at {
-    color: $green;
-    font-weight: bold;
-  }
+  a.fork-me-at { color: $green; }
 }
 
 .gif-listing {

@@ -103,8 +103,17 @@
       links[i].addEventListener("mouseover", hoverListener);
     }
 
-    function filterResultsFromInputListener (evt) {
-      var filterStrings = evt.target.value.toLowerCase().replace(/[^a-z0-9 ]+/g, '').split(' '),
+    var originalTitle = document.title;
+    function setSearchHash(text) {
+      var currentBase = window.location.pathname + window.location.search,
+        title = originalTitle + (text ? ': ' + text : ''),
+        url = (text.length ? '#' + text : currentBase);
+      document.title = title;
+      window.history.replaceState({ search: text }, title, url);
+    }
+
+    function filterResultsWithString(filterString) {
+      var filterStrings = filterString.split(' '),
         visibleCategories = [];
 
       for (var i = 0; i < links.length; i++) {
@@ -149,8 +158,28 @@
       }
     }
 
+    function filterResultsFromInputListener(evt) {
+      var filterString = evt.target.value.toLowerCase().replace(/[^a-z0-9 ]+/g, '');
+
+      setSearchHash(filterString);
+
+      filterResultsWithString(filterString);
+    }
+
     filterInput.addEventListener('keyup', filterResultsFromInputListener);
     filterInput.addEventListener('change', filterResultsFromInputListener);
+
+    function hashChanged() {
+      var filterString = window.location.hash.slice(1);
+      filterInput.value = filterString;
+      filterResultsWithString(filterString);
+    }
+
+    // Listen for any changes to the hash
+    window.addEventListener('hashchange', hashChanged, false);
+
+    // See if there's a hash and trigger it
+    hashChanged();
   </script>
 
 </body>

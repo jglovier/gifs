@@ -115,7 +115,11 @@ body{
     z-index: 2;
     display: none;
 
-    &[src*=".gif"] { display: block; }
+    &[src*=".gif"],
+    &[src*=".png"],
+    &[src*=".jpg"] {
+      display: block;
+    }
 
   }
 

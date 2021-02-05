@@ -1,2 +1,8 @@
 language: ruby
+rvm:
+  - 2.7.0
 script: "bundle exec jekyll build"
+before_install:
+  - gem install bundler
+install:
+  - bundle install
